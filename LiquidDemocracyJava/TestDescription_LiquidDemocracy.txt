@@ -1,0 +1,28 @@
+The test solution is implemented in Java. 
+The solution consists from the following interfaces and classes:
+
+<<<<< Interfaces:
+
+IVoter - Interface for a Voter class
+IVoterController - Interface for a VoterController class
+IPrinter - Interface for a Printer class
+
+<<<<< Classes:
+
+Voter - Class that represents a Voter with corresponding operations: 
+        Pick - to pick a choice and DelegateTo to delegate to another Voter
+VoterController - A controller class that manipulates the voters collection
+UserInputController - Decodes the use input and extracts the commands for voters
+Printer - Prints votes' names and choices
+FindVoterResult - Auxiliary class-storage to keep the found Voter result
+Main - Main program class
+
+<<<<<< Tests:
+
+VoterControllerTest - Contains 5 tests, which test the following:
+
+addVoterWithChoiceTest - A single choice
+addVoterWithDelegateTest - A single delegate
+addVotersWithChoicesAndDelegatesTest - Multiple choices and delegates. 
+checkAddedVoters - Checks added voters
+getInvalidVotesNumberTest - Checks the number of invalid choices

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiquidDemocracy", "LiquidDemocracy\LiquidDemocracy.csproj", "{D1B5CF0B-A8F0-4B33-91AB-3C5CBB85EC61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiquidDemocracyTests", "LiquidDemocracyTests\LiquidDemocracyTests.csproj", "{D625CFC5-F499-4A5D-8BCF-4AA3BF1ECC1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B5CF0B-A8F0-4B33-91AB-3C5CBB85EC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B5CF0B-A8F0-4B33-91AB-3C5CBB85EC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B5CF0B-A8F0-4B33-91AB-3C5CBB85EC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B5CF0B-A8F0-4B33-91AB-3C5CBB85EC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D625CFC5-F499-4A5D-8BCF-4AA3BF1ECC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D625CFC5-F499-4A5D-8BCF-4AA3BF1ECC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D625CFC5-F499-4A5D-8BCF-4AA3BF1ECC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D625CFC5-F499-4A5D-8BCF-4AA3BF1ECC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B88E351-DBFD-4D7D-822F-DF816868F94B}
+	EndGlobalSection
+EndGlobal

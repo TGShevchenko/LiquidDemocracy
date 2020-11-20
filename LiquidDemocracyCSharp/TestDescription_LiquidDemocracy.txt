@@ -1,0 +1,27 @@
+The test solution is implemented in C# .NETCore. 
+The solution consists from the following interfaces and classes:
+
+<<<<< Interfaces:
+
+IVoter - Interface for a Voter class
+IVoterController - Interface for a VoterController class
+IPrinter - Interface for a Printer class
+
+<<<<< Classes:
+
+Voter - Class that represents a Voter with corresponding operations: 
+        Pick - to pick a choice and DelegateTo to delegate to another Voter
+VoterController - A controller class that manipulates the voters collection
+UserInputCOntroller - Decodes the use input and extracts the commands for voters
+Printer - Prints votes' names and choices
+FindVoterResult - Auxiliary class-storage to keep the found Voter result
+Program - Main program class
+
+<<<<<< Tests:
+
+VoteTests - Contains 5 tests, which test the following:
+AddVoterWithChoiceTest - A single choice
+AddVoterWithDelegateTest - A single delegate
+AddVoterWithChoiceAndDelegateTest - One choice and one delegate
+GetAggregatedVoterChoicesForValidVotesTest - Creates valid and invalid choices with checking only valid ones
+GetAggregatedVoterChoicesForInValidVotesTest - Creates valid and invalid choices with checking only invalid ones
