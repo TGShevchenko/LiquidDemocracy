@@ -10,12 +10,14 @@ namespace LiquidDemocracy
     /// </summary>
     public class Voter : IVoter
     {
-        string name;
-        IVoter delegateToVoter;
-        IVoter delegateFromVoter;
-        IDictionary<String, int> choices = new Dictionary<String, int>();
+        private string name;
+        private IVoter delegateToVoter;
+        private IVoter delegateFromVoter;
+        private IDictionary<String, int> choices = new Dictionary<String, int>();
+
         public IDictionary<String, int> Choices { get => choices; set { choices = value; } }
         public String Name { get => name; set { name = value; } }
+
         public IVoter DelegateFromVoter
         {
             get => delegateFromVoter;

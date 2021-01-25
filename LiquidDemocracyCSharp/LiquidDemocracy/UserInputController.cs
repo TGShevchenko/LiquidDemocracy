@@ -10,8 +10,9 @@ namespace LiquidDemocracy
     /// </summary>
     class UserInputController
     {
-        IVoterController voterController;
-        IPrinter printer;
+        private IVoterController voterController;
+        private IPrinter printer;
+
         public UserInputController(IVoterController voterController, IPrinter printer)
         {
             this.voterController = voterController;

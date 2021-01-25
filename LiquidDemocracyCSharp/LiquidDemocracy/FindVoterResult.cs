@@ -12,7 +12,8 @@ namespace LiquidDemocracy
     {
         public IVoter VoterItem { get; set; }
         public bool IsFound { get; set; }
-        public FindVoterResult()
+
+	public FindVoterResult()
         {
             IsFound = false;
         }

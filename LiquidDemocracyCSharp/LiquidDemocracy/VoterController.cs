@@ -11,7 +11,7 @@ namespace LiquidDemocracy
     /// </summary>
     public class VoterController : IVoterController
     {
-        IDictionary<String, IVoter> voterDictionary = new Dictionary<String, IVoter>();
+        private IDictionary<String, IVoter> voterDictionary = new Dictionary<String, IVoter>();
 
         public VoterController() { }
 

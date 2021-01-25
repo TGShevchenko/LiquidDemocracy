@@ -9,7 +9,8 @@ namespace LiquidDemocracy
     /// </summary>
     class Printer : IPrinter
     {
-        IVoterController voterController;
+        private IVoterController voterController;
+
         public Printer(IVoterController voterController)
         {
             this.voterController = voterController;
